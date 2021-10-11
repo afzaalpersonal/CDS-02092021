@@ -8,8 +8,10 @@
 .container .container-core {
 	max-width: 1200px;
 	margin: 0 auto;
+    padding: 0 30px;
 }
 .container .container-col {
 	position: relative;
 	box-sizing: border-box;
 }
+

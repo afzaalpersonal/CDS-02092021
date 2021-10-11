@@ -52,3 +52,21 @@
 .block-flex.flex-column-gap-80 {
 	column-gap: 80px;
 }
+
+/* Small screens, laptops */
+@media only screen and (max-width: 800px) {
+
+	.block-flex.w800-block-flex-column {
+		flex-direction: column;
+	}
+	.block-flex.w800-block-flex-column-reverse {
+		flex-direction: column-reverse;
+	}
+	.block-flex.w800-block-flex-center {
+		align-items: center;
+	}
+
+	.block-flex .w800-flex-col-1p {
+		width: 100%;
+	}
+}

@@ -4,6 +4,18 @@
 @import url('./utility/grid.css');
 @import url('./utility/flex.css');
 
+/* Header notice */
+.cds-notice {
+	font-size: 12px;
+	text-align: center;
+}
+.cds-notice p {
+	color: #fff;
+	background: #f94144;
+	margin: 0;
+	padding: 10px 0;
+}
+
 /* Container - Header */
 .container.page-header {
 	text-align: center;
