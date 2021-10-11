@@ -1,0 +1,67 @@
+/* Import external scripts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;700;900&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;500;700;900&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=block');
+
+/* Base css styling */
+body {
+    margin: 0;
+	padding: 0;
+	background: #fff;
+}
+body,
+button,
+input,
+select,
+textarea {
+	color: #888;
+	font-family: Open Sans, Helvetica, Arial;
+	font-size: 14px;
+	line-height: 1.8;
+	word-wrap: break-word;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+	color: #000;
+	margin: 0 0 0.8em;
+	line-height: 1.5;
+}
+h1 {
+	font-size: 32px;
+}
+h2 {
+	font-size: 26px;
+}
+h3 {
+	font-size: 20px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 12px;
+}
+p {
+	margin: 0 0 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+button {
+	height: 50px;
+	border-radius: 5px !important;
+}
+
+/* Main area */
+#main {
+}

@@ -1,0 +1,106 @@
+/* Import stylesheets in specific order */
+@import url('./global/global.css');
+@import url('./layout/container.css');
+@import url('./utility/grid.css');
+@import url('./utility/flex.css');
+
+/* Container - Header */
+.container.page-header {
+	text-align: center;
+	background: #f8f8f8;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+.container.page-header .block-header h1 {
+	font-weight: 500;
+}
+.container.page-header .block-body .block-text {
+	margin-bottom: 35px;
+}
+.container.page-header .block-body .block-text p {
+	margin-bottom: 5px;
+}
+.container.page-header .block-body .block-text p:last-child {
+	margin-bottom: 20px;
+}
+.container.page-header .block-footer button {
+}
+.container.page-header .container-col1 .block-image,
+.container.page-header .container-col1 .block-text {
+	max-width: 400px;
+	margin: 0 auto;
+}
+.container.page-header .container-col1 .block-image {
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+/* Container - Time */
+.container.page-time {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.container.page-time .container-col1 .block-image,
+.container.page-time .container-col1 .block-text {
+	max-width: 400px;
+	margin: 0 auto;
+}
+.container.page-time .container-col1 .block-image {
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+/* Container - You */
+.container.page-you {
+	padding-bottom: 70px;
+}
+.container.page-you .container-col1 .block-image,
+.container.page-you .container-col1 .block-text {
+	max-width: 415px;
+	margin: 0 auto;
+}
+.container.page-you .container-col1 .block-image {
+	overflow: hidden;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+.container.page-you .container-col1 .block-text {
+	font-size: 12px;
+}
+
+/* Container - Footer (Call to action) */
+.container.page-cta-footer {
+	text-align: center;
+	background: #fafafa;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+.container.page-cta-footer .block-header h2 {
+	font-weight: 500;
+}
+.container.page-cta-footer .block-body .block-text {
+	margin-bottom: 35px;
+}
+.container.page-cta-footer .block-body .block-text p {
+	margin-bottom: 5px;
+}
+.container.page-cta-footer .block-body .block-text p:last-child {
+	margin-bottom: 20px;
+}
+.container.page-cta-footer .block-footer button {
+}
+
+/* Container - Footer */
+.container.page-footer {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.container.page-footer .block-body .block-text {
+	font-size: 12px;
+}
+.container.page-footer .block-body .block-text p {
+	margin: 0;
+}

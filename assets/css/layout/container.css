@@ -1,0 +1,15 @@
+.container {
+	overflow: hidden;
+}
+.container.container-wide .container-core {
+	max-width: 100%;
+	margin: 0;
+}
+.container .container-core {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.container .container-col {
+	position: relative;
+	box-sizing: border-box;
+}
