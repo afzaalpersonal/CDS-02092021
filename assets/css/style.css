@@ -52,14 +52,18 @@
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-.container.page-time .container-col1 .block-image,
-.container.page-time .container-col1 .block-text {
-	max-width: 400px;
+.container.page-time .container-col2 .block-image,
+.container.page-time .container-col2 .block-text {
+	max-width: 450px;
 	margin: 0 auto;
 }
-.container.page-time .container-col1 .block-image {
-	border-radius: 10px;
+.container.page-time .container-col2 .block-image {
 	overflow: hidden;
+	margin-bottom: 15px;
+}
+.container.page-time .container-col2 .block-text {
+	text-align: center;
+	font-size: 12px;
 }
 
 /* Container - You */
